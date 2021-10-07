@@ -2,7 +2,7 @@ class Question {
 
   constructor() {
     this.title = createElement('h1')
-    this.input1 = createInput("Enter Your Name Here....");
+    this.input = createInput("").attribute("placeholder", "Enter your name");
    //Create a input box to enter the number
    this.input = createInput("").attribute("placeholder", "Enter your option");
    
